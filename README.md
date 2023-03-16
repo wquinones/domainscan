@@ -20,26 +20,39 @@ Domain Scanner is a Python script that scans a single domain or a list of domain
 ## Installation
 
 1. Clone the repository:
+``` 
 git clone https://github.com/wquinones/domain-scanner.git
-
+``` 
 2. Navigate to the project folder:
-cd domain-scanner
+``` 
+cd domain-scanner 
+```
 
 3. Install the required dependencies:
+``` 
 pip install requests selenium
+``` 
 
 4. Make sure you have the Chrome WebDriver installed and available in your system's PATH.
 
 ## Usage
 
 To scan a single domain:
+``` 
 python domain_scanner.py -d example.com
+``` 
 
 To scan a list of domains from a file:
+``` 
 python domain_scanner.py -dl domain_list.txt
+``` 
 
 To set a custom timeout for domain scans in seconds (default is 10 seconds):
+``` 
 python domain_scanner.py -d example.com -t 5
+``` 
 
 To view help information and available command line options:
+``` 
 python domain_scanner.py --help
+``` 
